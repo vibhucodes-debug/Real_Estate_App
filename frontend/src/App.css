@@ -45,7 +45,7 @@ div.navbar {
   height: 100%;
 
   & div.logo>h2 {
-      font-weight: 100;
+      font-weight: 200;
   }
 }
 
@@ -68,7 +68,7 @@ div.navbar-login-signup-btn {
   & button:nth-child(1) {
       background-color: transparent;
       border: none;
-      font-weight: 100;
+      font-weight: 200;
   }
 
   & button:nth-child(2) {
@@ -131,7 +131,18 @@ div.hero-container-primary {
           font-weight: 600;
 
           & li{
-              padding:0 10px 0 10px;
+              padding:5px 10px 5px 10px;
+              border-bottom:3px solid transparent;
+
+              &:nth-child(1){
+              border-bottom:3px solid white;
+
+              }
+
+              &:hover{
+                border-bottom:3px solid white;
+                cursor:pointer;
+              }
           }
       }
 
@@ -157,7 +168,7 @@ div.hero-container-primary {
               width: 100%;
               border-radius:2rem;
               border:0.5px solid gray;
-              padding:1rem;
+              padding:2rem;
           }
 
       }

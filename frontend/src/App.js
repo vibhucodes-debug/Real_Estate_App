@@ -2,14 +2,15 @@ import './App.css';
 import Navbar from './Components/navbar/navbar.jsx'
 import HeroContainer from './Components/heroContainer/heroContainer.jsx'
 import BrowseHouses from './Components/browse Houses/BrowseHouses.jsx';
+import DiscoverHelp from './Components/discoverHelp/discoverHelp.jsx';
 
 function App() {
   return (
     <div className="App">
         
-        <div class="hero-image-container"></div>
-        <div class="hero-image-container-filter"></div>
-        <div class="supreme-container">
+        <div className="hero-image-container"></div>
+        <div className="hero-image-container-filter"></div>
+        <div className="supreme-container">
 
         <header>
            <Navbar/>
@@ -28,7 +29,7 @@ function App() {
                 <BrowseHouses/>
                 <BrowseHouses/>
             </div>
-            <div className="discover-help">Discover</div>   
+            <DiscoverHelp/> 
         </main>
 
         <footer></footer>

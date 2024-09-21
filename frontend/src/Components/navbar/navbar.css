@@ -4,10 +4,7 @@ div.navbar {
     align-items: center;
     width: 100%;
     height: 100%;
-  
-    & div.logo{
-      /* flex:1; */
-    }
+
     & div.logo>span {  
         font-family:"Roboto Serif",serif; 
         font-size:24px;
@@ -20,7 +17,6 @@ div.navbar {
   }
   
   ul.navigation-list {
-    /* flex:3; */
     min-width: fit-content;
     margin-left:30px;
     height:100%;
@@ -45,7 +41,6 @@ div.navbar {
   div.navbar-login-signup-btn {
     display: flex;
     flex-direction: row;
-    /* flex:2; */
     gap: 16px;
     width: 100%;
     justify-content: flex-end;
@@ -69,7 +64,9 @@ div.navbar {
         align-self: center;
         height:2.5rem;
         padding: 10px 15px;
-        border: none;
+        border: none;v.logo{
+          /* flex:1; */
+        }
         border-radius: 20px;
         background-color: black;
         color: white;
@@ -103,4 +100,3 @@ div.navbar {
     display:none;
   }
 }
-  

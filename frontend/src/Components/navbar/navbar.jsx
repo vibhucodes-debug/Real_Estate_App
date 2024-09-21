@@ -4,18 +4,18 @@ const Navbar =()=>{
 
 
     return (
-        <div class="navbar">
-                <div class="logo"><span>real</span><span>tor.com</span></div>    
-                <ul class="navigation-list">
-                    <li class="navigation-list-item">Buy</li>
-                    <li class="navigation-list-item">Sell</li>
-                    <li class="navigation-list-item">Rent</li>
-                    <li class="navigation-list-item">Mortgage</li>
-                    <li class="navigation-list-item">Find realtors</li>
-                    <li class="navigation-list-item">My Home</li>
-                    <li class="navigation-list-item">News & Insights</li>   
+        <div className="navbar">
+                <div className="logo"><span>real</span><span>tor.com</span></div>    
+                <ul className="navigation-list">
+                    <li className="navigation-list-item">Buy</li>
+                    <li className="navigation-list-item">Sell</li>
+                    <li className="navigation-list-item">Rent</li>
+                    <li className="navigation-list-item">Mortgage</li>
+                    <li className="navigation-list-item">Find realtors</li>
+                    <li className="navigation-list-item">My Home</li>
+                    <li className="navigation-list-item">News & Insights</li>   
                 </ul>
-                <div class="navbar-login-signup-btn">
+                <div className="navbar-login-signup-btn">
                     <button>Log in</button>
                     <button>Sign up</button>
                 </div>

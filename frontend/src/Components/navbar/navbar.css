@@ -5,6 +5,9 @@ div.navbar {
     width: 100%;
     height: 100%;
   
+    & div.logo{
+      /* flex:1; */
+    }
     & div.logo>span {  
         font-family:"Roboto Serif",serif; 
         font-size:24px;
@@ -17,19 +20,22 @@ div.navbar {
   }
   
   ul.navigation-list {
+    /* flex:3; */
     min-width: fit-content;
+    margin-left:30px;
     height:100%;
-    margin-left: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     list-style: none;
     gap: 1rem;
-  
+    transition:1s;
+
     & li{
-      padding:0 10px 0 10px;
       display:flex;
       align-items:center;
       border-bottom:2px solid white;
+      padding:0 10px 0 10px;
       &:hover{
         border-bottom:2px solid rgb(30, 30, 30);
       }
@@ -39,6 +45,7 @@ div.navbar {
   div.navbar-login-signup-btn {
     display: flex;
     flex-direction: row;
+    /* flex:2; */
     gap: 16px;
     width: 100%;
     justify-content: flex-end;
@@ -74,4 +81,26 @@ div.navbar {
         }
     }
   }
+  
+/* @media screen and (max-width:1260px){
+  ul.navigation-list{
+    & li:nth-child(7), li:nth-child(6){
+      opacity:0;
+    }
+  }
+} */
+@media screen and (max-width:1200px){
+  ul.navigation-list{
+    width:1000px;
+    & li:nth-child(7), li:nth-child(6){
+      display:none;
+    }
+  }
+}
+
+@media screen and (max-width:850px){
+  ul.navigation-list{
+    display:none;
+  }
+}
   

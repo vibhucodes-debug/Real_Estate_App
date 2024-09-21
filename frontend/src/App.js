@@ -1,7 +1,7 @@
 import './App.css';
-import BrowseHouses from './Components/Browse Houses/BrowseHouses';
-import Navbar from './components/navbar/navbar.jsx'
-import HeroContainer from './components/heroContainer/heroContainer.jsx'
+import Navbar from './Components/navbar/navbar.jsx'
+import HeroContainer from './Components/heroContainer/heroContainer.jsx'
+import BrowseHouses from './Components/browse Houses/BrowseHouses.jsx';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
             </div>
             <div className="discover-help">Discover</div>   
         </main>
-        
+
         <footer></footer>
     </div>  
     </div>

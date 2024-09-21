@@ -3,6 +3,7 @@ import Navbar from './Components/navbar/navbar.jsx'
 import HeroContainer from './Components/heroContainer/heroContainer.jsx'
 import BrowseHouses from './Components/browse Houses/BrowseHouses.jsx';
 import DiscoverHelp from './Components/discoverHelp/discoverHelp.jsx';
+import ReadArticle from './Components/readArticle/readArticle.jsx';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
                 <BrowseHouses/>
             </div>
             <DiscoverHelp/> 
+            <ReadArticle/>
         </main>
 
         <footer></footer>

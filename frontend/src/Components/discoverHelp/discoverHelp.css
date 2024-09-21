@@ -3,6 +3,7 @@
     width: 100%;
     display:flex;
     flex-direction:column;
+    margin-bottom:4rem;
 
     & h2{
         margin-bottom:1.5rem;
@@ -36,12 +37,12 @@
         flex-wrap:wrap;
         width:100%;
         height: fit-content;
-        gap:1.5rem;
+        gap:1rem;
         max-height:fit-content;
         & .discover-card{
             display:flex;
             border:1px solid rgb(173, 173, 173);
-            border-radius:10px;
+            border-radius:5px;
             flex:1;
             height:15rem;
             padding:15px;

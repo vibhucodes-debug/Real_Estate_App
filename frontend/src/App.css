@@ -60,6 +60,18 @@ div.hero-image-container-filter{
 }
 
 
+.browse-homes-heading{
+  margin: 2.5rem 0;
+  font-size: 1.8rem;
+  font-weight:500;
+}
+.browse-homes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2.5rem 0;
+} 
+
 
 @media screen and (max-width:1250px) {
   .supreme-container {

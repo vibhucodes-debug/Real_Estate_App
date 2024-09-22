@@ -15,3 +15,6 @@ const BrowseHouses = () => {
 }
 
 export default BrowseHouses;
+
+
+

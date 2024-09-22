@@ -1,0 +1,37 @@
+
+
+.styled-article-container{
+    display:flex;
+    justify-content: center;
+    padding:3rem 2rem;
+    width:100%;
+    height:22rem;
+    gap:1rem;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    background-color: #eeeee4;
+}
+
+.styled-article-card{
+    height:100%;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px rgb(99, 99, 99);
+    overflow: hidden;
+    background-color: white;
+}
+
+.styled-article-image{
+    flex:4;
+    /* Background Image for this one is inline css */
+}
+
+.styled-article-text{
+    flex:1.5;
+    margin:15px 15px;
+    color:rgb(45, 45, 45);
+    /* letter-spacing: 2px; */
+    text-align: justify;
+}

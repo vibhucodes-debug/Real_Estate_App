@@ -4,6 +4,7 @@ import HeroContainer from './Components/heroContainer/heroContainer.jsx'
 import BrowseHouses from './Components/browse Houses/BrowseHouses.jsx';
 import DiscoverHelp from './Components/discoverHelp/discoverHelp.jsx';
 import ReadArticle from './Components/readArticle/readArticle.jsx';
+import StyledArticles from './Components/styledArticles/styledArticles.jsx';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
             </div>
             <DiscoverHelp/> 
             <ReadArticle/>
+            <StyledArticles/>
+
         </main>
 
         <footer></footer>

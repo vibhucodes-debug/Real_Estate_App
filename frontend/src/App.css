@@ -28,7 +28,7 @@
   position:relative;
   margin: 0 16px 0 16px;
   width: 1200px;
-  height: 300vh;
+  height: max-content;
   transition: 0.7s;
 }
 
@@ -70,7 +70,7 @@ div.hero-image-container-filter{
 .browse-homes{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2.5rem 0;
 } 
 

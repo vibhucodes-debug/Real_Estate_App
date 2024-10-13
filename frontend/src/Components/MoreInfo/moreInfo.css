@@ -1,0 +1,54 @@
+.more-info-div{
+    display: flex;    
+}
+.div1-image{
+    width: 50%;
+}
+.div1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.div1-content p:first-child{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.div1-content p{
+    margin-bottom: 1.5rem;
+}
+
+.div1-content button{
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+}
+.div1-content button:hover{
+    background-color: rgb(145, 142, 142);
+}
+.div1-content{
+    width: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.search-container{
+    position: relative;
+}
+.search-container input{
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    width:30rem;
+    border-radius: 2rem;
+    
+}
+.search-container button{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+}

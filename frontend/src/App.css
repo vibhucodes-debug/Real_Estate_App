@@ -42,7 +42,7 @@ div.hero-image-container{
   height: 450px;
   position:absolute;
   top:3.5rem;
-  background-image: url("../assets/images/hero-image4.jpg");
+  background-image: url("./assets/images/hero-image4.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;

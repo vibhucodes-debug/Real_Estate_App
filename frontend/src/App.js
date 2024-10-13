@@ -5,7 +5,7 @@ import BrowseHouses from './Components/browse Houses/BrowseHouses.jsx';
 import DiscoverHelp from './Components/discoverHelp/discoverHelp.jsx';
 import ReadArticle from './Components/readArticle/readArticle.jsx';
 import StyledArticles from './Components/styledArticles/styledArticles.jsx';
-
+import MoreInfo from './Components/MoreInfo/MoreInfo.jsx';
 function App() {
     return (
         <div className="App">
@@ -40,6 +40,7 @@ function App() {
             </div>
             <ReadArticle />
             <StyledArticles />
+            <MoreInfo/>
         </div>
     );
 }

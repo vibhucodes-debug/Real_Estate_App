@@ -61,15 +61,15 @@ div.read-article-container{
     }
 
     & div:nth-child(3){
-        background-image:url("../../../assets/images/read-article1.jpg");
+        background-image:url("../../assets/images/read-article1.jpg");
         background-size: cover;
     }   
     & div:nth-child(4){
-        background-image:url("../../../assets/images/read-article2.jpg");
+        background-image:url("../../assets/images/read-article2.jpg");
         background-size: cover;
     }
     & div:nth-child(5){
-        background-image:url("../../../assets/images/read-article3.jpg");
+        background-image:url("../../assets/images/read-article3.jpg");
         background-size: cover;
     }
 }
